@@ -20,7 +20,7 @@ public class SortTest {
 	public static final Logger LOGGER = Logger.getLogger(SortTest.class);
 
 	public static void main(String[] args) throws Exception{
-		String pathName = "D://data.txt";
+		String pathName = "src/test/resource/File/data.txt";
 		DataUtil dataUtil = new DataUtil();
 		//dataUtil.getData(pathName);
 
