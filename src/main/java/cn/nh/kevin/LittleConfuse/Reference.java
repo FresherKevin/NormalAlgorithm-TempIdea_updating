@@ -1,4 +1,4 @@
-package cn.nh.kevin;
+package cn.nh.kevin.LittleConfuse;
 
 /**
  * 标题:测试数组的引用对象
