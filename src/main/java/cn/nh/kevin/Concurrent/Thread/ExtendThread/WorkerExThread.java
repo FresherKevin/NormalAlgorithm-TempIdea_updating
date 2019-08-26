@@ -12,15 +12,4 @@ public class WorkerExThread extends BaseExThread {
 		super(name, time);
 	}
 
-	@Override
-	public void run() {
-		try{
-			System.out.println(tname + "begin");
-			Thread.sleep(Time);
-			System.out.println(tname + "end");
-		}catch (InterruptedException e){
-			e.printStackTrace();
-		}
-
-	}
 }

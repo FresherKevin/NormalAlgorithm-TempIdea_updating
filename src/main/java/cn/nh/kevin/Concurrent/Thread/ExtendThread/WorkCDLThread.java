@@ -1,24 +1,21 @@
 package cn.nh.kevin.Concurrent.Thread.ExtendThread;
 
-import lombok.Getter;
-import lombok.Setter;
+import java.util.concurrent.CountDownLatch;
 
 /**
  * 标题:
- * 描述: 基础线程类
+ * 描述:
  * 版权: 税友软件集团股份有限公司
  * 作者: xck
- * 时间: 2019-08-23 15:47
+ * 时间: 2019-08-26 10:30
  */
-@Getter
-@Setter
-public class BaseExThread extends Thread{
-	protected String tname;
-	protected Long Time;
+public class WorkCDLThread extends BaseExThread{
 
-	public BaseExThread(String name, Long time) {
-		tname = name;
-		Time = time;
+	private CountDownLatch countDownLatch;
+
+	public WorkCDLThread(String name, Long time,CountDownLatch countDownLatch) {
+		super(name, time);
+		this.countDownLatch = countDownLatch;
 	}
 
 	@Override
@@ -27,9 +24,10 @@ public class BaseExThread extends Thread{
 			System.out.println(tname + "begin");
 			Thread.sleep(Time);
 			System.out.println(tname + "end");
+
+			countDownLatch.countDown();
 		}catch (InterruptedException e){
 			e.printStackTrace();
 		}
-
 	}
 }
