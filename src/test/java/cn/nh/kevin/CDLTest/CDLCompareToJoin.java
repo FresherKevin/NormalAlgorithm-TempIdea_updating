@@ -11,7 +11,7 @@ import java.util.concurrent.CountDownLatch;
 /**
  * 标题:CountDownLatch的应用场景和Join的对比
  * 描述:
- * 版权: 税友软件集团股份有限公司
+ * 版权: KEVIN
  * 作者: xck
  * 时间: 2019-08-23 14:18
  */

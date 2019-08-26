@@ -5,7 +5,7 @@ import java.util.concurrent.CountDownLatch;
 /**
  * 标题:
  * 描述:
- * 版权: 税友软件集团股份有限公司
+ * 版权: KEVIN
  * 作者: xck
  * 时间: 2019-08-26 10:30
  */

@@ -3,7 +3,7 @@ package cn.nh.kevin.LittleConfuse;
 /**
  * 标题:测试数组的引用对象
  * 描述:
- * 版权: 税友软件集团股份有限公司
+ * 版权: KEVIN
  * 作者: xck
  * 时间: 2019-08-19 09:07
  */
