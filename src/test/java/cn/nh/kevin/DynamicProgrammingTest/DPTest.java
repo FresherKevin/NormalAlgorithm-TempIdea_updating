@@ -1,4 +1,4 @@
-package DynamicProgrammingTest;
+package cn.nh.kevin.DynamicProgrammingTest;
 
 import cn.nh.kevin.Dynamic_Programming.Bag01;
 import org.apache.log4j.Logger;

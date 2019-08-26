@@ -1,4 +1,4 @@
-package cn.nh.kevin.Concurrent.Main;
+package cn.nh.kevin.CDLTest;
 
 import cn.nh.kevin.Concurrent.Thread.ExtendThread.BaseExThread;
 import cn.nh.kevin.Concurrent.Thread.ExtendThread.TwoPartWokerExThread;

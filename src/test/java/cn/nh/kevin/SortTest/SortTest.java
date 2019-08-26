@@ -1,12 +1,10 @@
-package SortTest;
+package cn.nh.kevin.SortTest;
 
 import cn.nh.kevin.Sort.BubbleSort;
 import cn.nh.kevin.Sort.HeapSort;
 import cn.nh.kevin.Sort.QuickSort;
 import cn.nh.kevin.Util.DataUtil;
 import org.apache.log4j.Logger;
-
-import java.io.FileNotFoundException;
 
 /**
  * 标题:测试多种排序结果

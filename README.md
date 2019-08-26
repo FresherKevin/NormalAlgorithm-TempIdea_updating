@@ -10,3 +10,4 @@
 ## 突发奇想的学习
 * 并发类
     * CountDownLatch类
+    * Join
