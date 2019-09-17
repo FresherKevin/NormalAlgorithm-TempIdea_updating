@@ -1,5 +1,7 @@
 package cn.nh.kevin.Sort;
 
+import cn.nh.kevin.demo.Util.Redis.RedisUtil;
+
 /**
  * 标题:冒泡排序
  * 描述:
@@ -22,4 +24,5 @@ public class BubbleSort {
 		}
 		return result;
 	}
+
 }
