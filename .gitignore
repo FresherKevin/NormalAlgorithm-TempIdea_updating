@@ -1,0 +1,50 @@
+HELP.md
+/target/
+*/target/
+logs/
+*.log
+*.txt
+!.mvn/wrapper/maven-wrapper.jar
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+bin/
+out
+*.mymetadata
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.imlclea
+*.ipr
+*.iml
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/
+
+
+## mvn ##
+.mvn
+
+## mac ##
+.DS_Store
+
